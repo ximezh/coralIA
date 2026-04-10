@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Archivos de entorno
+.env
+.env.local
+
+# Modelos grandes (si pesan mucho, opcional)
+*.pkl
+*.h5
+*.joblib
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
