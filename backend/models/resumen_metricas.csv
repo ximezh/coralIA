@@ -1,0 +1,4 @@
+Modelo,Algoritmo,Metrica,Valor,Extra
+M1 — Regresion (DHW),Random Forest,R2 (test),0.9003,MAE=0.7495 DHW | RMSE=1.5447 DHW
+M2 — Clasificacion (reef_status),LightGBM+SMOTE,Accuracy (test),0.8556,F1 macro=0.5798 | F1 weighted=0.8571
+M3 — Clustering (perfiles riesgo),K-Means + PCA (6 comp.),Silhouette Score,0.213,Sin PCA=0.1737 | Mejora=+0.0393
