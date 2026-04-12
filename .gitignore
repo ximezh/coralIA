@@ -25,3 +25,9 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Vite cache
+frontend/.vite/
+
+# Imágenes locales de arrecifes
+frontend/src/assets/reefs/
